@@ -1,0 +1,101 @@
+@-webkit-keyframes left-head-in {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes left-head-in {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+header {
+  position: relative;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 30% 50%;
+      grid-template-columns: 20% 30% 50%;
+  height: 120px;
+}
+
+header .header-element1 {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-animation: left-head-in 2s;
+          animation: left-head-in 2s;
+}
+
+header .header-element2 {
+  position: relative;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  -webkit-animation: left-head-in 3s;
+          animation: left-head-in 3s;
+}
+
+header .header-element2 a {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header .header-element2 a img {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-left: 0;
+  margin-top: -10px;
+}
+
+header .header-element3 {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: left-head-in 1.5s;
+          animation: left-head-in 1.5s;
+}
+
+header .header-element3 ul {
+  margin: 0;
+}
+
+header .header-element3 ul li {
+  display: inline;
+  margin-right: 4%;
+}
+
+body {
+  background-color: #3d0b61;
+  margin: 20px 1.5% 100px 1.5%;
+}
+
+body main {
+  background-color: white;
+}
+
+body main .content-area {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  background-color: grey;
+}
+/*# sourceMappingURL=styles.css.map */
