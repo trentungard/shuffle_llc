@@ -1,0 +1,85 @@
+@media (max-width: 800px){
+
+    @keyframes left-head-in{
+        from{
+            left: -500px;
+        }
+        to{
+            left: 7%;
+        }
+    }
+
+    @keyframes left-head-in-two{
+        from{
+            left: -500px;
+        }
+        to{
+            left: 0%;
+        }
+    }
+
+    header{
+        margin-left: 0;
+        width: 100%;
+        border: 3px solid blue;
+        padding: 0% 0% 0% 0%;
+        grid-template-columns: 15% 25% 60%;
+        .header-element1{
+            animation: left-head-in-two 1.5s;
+            display: grid;
+            img{
+                
+            }
+    
+        }
+        .header-element2{
+            position: relative;
+            left: 7%;
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: 70% 30%;
+            a{
+                display: inline-block;
+                align-self: center;
+                img{
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;   
+                    margin-left: -45%;
+                    margin-top: -10px;
+                }
+            }
+    
+        }
+        .header-element3{
+            animation: left-head-in-two 1.5s;
+            position: relative;
+            display: grid;
+            height: 100%;
+            align-items: center;
+                ul{
+                    padding-left: 0%;
+                    margin: 0;
+                    li{
+                        display: inline;
+                        margin-right: 2%;
+                    }
+                }
+            }    
+        }
+    .section-one{
+        .image-container{
+            top: 22%;
+        }
+        .download{
+                .download-button{
+                width: 50%;
+                top: 0%;
+                left: 50%;
+                }
+            }
+        }
+    }
+/* KINDLE HD ABOVE*/ 
+
