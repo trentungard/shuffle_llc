@@ -1,0 +1,38 @@
+.purpose{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    h3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 35px;
+    }
+    .containers{
+        width: 100%;
+        justify-self: right;
+        margin: 0;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            left: 10%;
+            width: 80%;
+            position: relative;
+        }
+        
+    }
+    .containers-two{
+        width: 33%;
+        justify-self: left;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            width: 50%;
+            position: relative;
+            
+        }
+    }
+}

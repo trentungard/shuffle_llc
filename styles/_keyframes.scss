@@ -1,8 +1,8 @@
 @keyframes left-head-in{
     from{
-        left: -500px;
+        transform: translate(-200px, 0);
     }
     to{
-        left: 0px;
+        transform: translate(0px, 0);
     }
 }

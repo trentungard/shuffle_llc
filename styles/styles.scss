@@ -15,11 +15,13 @@
 body{
     border: 3px solid $radTeal;
     background-color: $shufflePurple;
-    margin: 20px 1.5% 100px 1.5%;
+    margin: 20px auto 100px auto;
+    width: 90vw;
+    max-width: 1350px;
     main{
         position: relative;
         top: 10%;
-        background-color: white;
+        background-color: $white;
         margin: 0 0 0 0;
         .content-area{
             top: 10%;

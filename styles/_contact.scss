@@ -1,0 +1,26 @@
+.contact{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+    .contact-button{
+        justify-self: center;
+        position: relative;
+        background-color: $radTeal;
+        width: 130px;
+        
+        a{
+
+            position: relative;
+            left: 5%;
+            bottom: 5px;
+            color: $white;
+            display: grid;
+            height: 50px;
+            width: 130px;
+            justify-items: center;
+            align-items: center;
+            background-color: $shufflePurple;
+            
+        }
+    }
+}
