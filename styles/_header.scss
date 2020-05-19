@@ -37,15 +37,19 @@ header{
             text-emphasis: none;
             text-decoration: none;
         }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+        }
         a:hover{
             text-decoration: none;
         }
         a:active{
             text-decoration: none;
         }
-        a:visited{
-            color: black;
-        }
+        
         a::after{
             content: url(../Elements/brands-and-logotypes\(1\).png);
         }
